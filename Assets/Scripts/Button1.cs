@@ -4,18 +4,6 @@ using UnityEngine;
 
 public class Button1 : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void Click()
     {
         Debug.Log("Clicked \"利用規約\"");
