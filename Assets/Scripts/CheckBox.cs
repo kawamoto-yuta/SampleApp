@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class CheckBoxScript : MonoBehaviour
+public class CheckBox : MonoBehaviour
 {
     [SerializeField] Toggle check;
     [SerializeField] Button button;

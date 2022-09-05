@@ -3,10 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ButtonScript1 : MonoBehaviour
+public class CallingDialog : MonoBehaviour
 {
     // [SerializeField] Text txt;
     [SerializeField] Canvas dialog;
+    [SerializeField] Text dialogTitle;
+    [SerializeField] Text buttonText;
+    [SerializeField] Text mainText;
     
     public void Start()
     {
@@ -17,5 +20,11 @@ public class ButtonScript1 : MonoBehaviour
     {
         // Debug.Log("Clicked \""+txt.text+"\"");
         dialog.enabled=true;
+        dialogTitle.text=buttonText.text;
+        mainText.text="";
+        for(int i=0;i<30;i++)
+        {
+            mainText.text+=buttonText.text+(i+1)+"\n";
+        }
     }
 }

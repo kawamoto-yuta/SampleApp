@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ButtonScript2 : MonoBehaviour
+public class ClosingDialog : MonoBehaviour
 {
-    [SerializeField] Text txt;
-    
+    [SerializeField] Canvas dialog;
+
     public void Click()
     {
-        Debug.Log("Clicked \""+txt.text+"\"");
+        dialog.enabled=false;
     }
 }
