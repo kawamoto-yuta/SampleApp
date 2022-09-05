@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class HomeButtonScript : MonoBehaviour
+public class OutputLog : MonoBehaviour
 {
     [SerializeField] Text txt;
     
