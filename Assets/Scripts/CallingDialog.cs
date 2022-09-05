@@ -10,6 +10,7 @@ public class CallingDialog : MonoBehaviour
     [SerializeField] Text dialogTitle;
     [SerializeField] Text buttonText;
     [SerializeField] Text mainText;
+    // [SerializeField] ScrollBar scrollView;
     
     public void Start()
     {
