@@ -1,0 +1,5 @@
+Assets/TextMesh filter=lfs diff=lfs merge=lfs -text
+Pro/Resources/Fonts filter=lfs diff=lfs merge=lfs -text
+Assets/TextMeshPro/Resources/Fonts filter=lfs diff=lfs merge=lfs -text
+Assets/TextMesh[[:space:]]Pro/Resources/Fonts[[:space:]]&[[:space:]]Materials/Togalite-Black[[:space:]]SDF[[:space:]]japan.asset filter=lfs diff=lfs merge=lfs -text
+f021582c42599981d51ffbcbf581a296966e2edc9927b63de8d53bcc065968c3 filter=lfs diff=lfs merge=lfs -text
