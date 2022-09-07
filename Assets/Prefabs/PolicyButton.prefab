@@ -93,7 +93,7 @@ GameObject:
   - component: {fileID: 5892804241482815241}
   - component: {fileID: 5892804241482815242}
   m_Layer: 5
-  m_Name: Button
+  m_Name: PolicyButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
